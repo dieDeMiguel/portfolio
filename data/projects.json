@@ -1,12 +1,11 @@
 [
     {
-        "title": "Connect Four",
-        "directory": "connect-four",
-        "img": "connect-gif.gif",
-        "body": "Connect-Four emulator developed in both vanilla JS as well as JQuery",
-        "info": "For this project the JQuery Library was extensively used. Methods like “addClass( )”, “.eq( )”, “.add( )”, “.find( )” were used. The challenging part was to develop a method to check diagonal win.",
-        "technologies": ["JavaScript", "JQuery", "HTML5", "CSS3", "Flex-Box"],
-        "repository": ""
+        "title": "Chat App",
+        "directory": "ChatApp",
+        "img": "chat.gif",
+        "URL": "https://diedemiguel-chatapp.herokuapp.com/",
+        "body": "Chat app developed using socket.io, NodeJS, ExpressJS and Handlebars",
+        "info": "JavaScript, HTML5 and CSS3 styling were also used in this project."
     },
     {
         "title": "Weather App",
@@ -48,6 +47,14 @@
         "repository": ""
     },
     {
+        "title": "Chat App",
+        "directory": "ChatApp",
+        "img": "chat.gif",
+        "URL": "https://diedemiguel-chatapp.herokuapp.com/",
+        "body": "Chat app developed using socket.io, NodeJS, ExpressJS and Handlebars",
+        "info": "JavaScript, HTML5 and CSS3 styling were also used in this project."
+    },
+    {
         "title": "Ticker",
         "directory": "Ticker",
         "img": "ticker-gif.gif",
@@ -58,7 +65,7 @@
         "title": "Hamburg Tip",
         "directory": "Tip-Calculator",
         "img": "tip.gif",
-        "body": "Application to calculate the total bill per person for a variable amount of customers in a restaurant",
+        "body": "This application calculates the total bill per person for a variable amount of customers in a restaurant",
         "info": "Vanilla JavaScript, HTML5 and CSS3 styling were used in this project."
     }
 ]
