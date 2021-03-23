@@ -1,0 +1,23 @@
+{
+    "name": "portfolio-express-handlebars",
+    "version": "0.0.1",
+    "description": "Portfolio with all myprojects using Handlebars, ExpresJS and NodeJS",
+    "main": "index.js",
+    "scripts": {
+        "start": "index.js",
+        "test": "test"
+    },
+    "keywords": [
+        "Node",
+        "NodeJS",
+        "Handlebars",
+        "Portfolio",
+        "dieDeMiguel"
+    ],
+    "author": "dieDeMiguel",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.1"
+    }
+}

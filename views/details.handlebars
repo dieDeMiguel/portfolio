@@ -1,0 +1,26 @@
+
+    {{>header}}
+
+     <div class="container container-flex">
+
+        <main role="main" id="lateral">
+            {{>projectList}}
+        </main>
+    
+        <main role="main">
+            <article class="article-featured"></article>
+                <h2 class="article-title">{{ title }}</h2>
+                <a href="/{{ currentDirectory }}" target="_blank"><img src="/img/{{ img }}" alt="" class="article-image"></a>
+                <p class="article-info">February 2021  |  dieDeMiguel</p>
+                <p class="article-body"><strong>{{ body }}</strong></p>
+                <p>{{ info }}</p>
+            {{#checklength URL}}   
+                    <a href="{{ URL }}" target="_blank" class="article-read-more">Go to project</a>
+            {{else}}
+                    <a href="/{{ currentDirectory }}" target="_blank" class="article-read-more">Go to project</a>
+            {{/checklength}}
+                </article>
+        </main>
+    </div>
+   
+    {{>footer}}

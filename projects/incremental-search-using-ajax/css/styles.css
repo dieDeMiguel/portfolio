@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: yellow;
+}
+
+.spiced-search {
+    position: relative;
+    padding: 2rem 2rem;
+}
+
+input {
+    width: 300px;
+}
+
+.spiced-search .suggestions {
+    position: absolute;
+    top: 0;
+    top: 40px;
+    left: 2rem;
+    width: 300px;
+    border: 1px solid blue;
+}
+.spiced-search .suggestions li {
+    list-style: none;
+    line-height: 2.5 rem;
+    cursor: pointer;
+    background: white;
+    margin-left: 0;
+    width: 295px;
+    transform: translateX(-38px);
+}
+
+.spiced-search .suggestions li:hover {
+    background: grey;
+    color: red;
+}
+
+.current {
+    background: yellow;
+    color: blue;
+}
+
+.spiced-search .suggestions {
+    display: none;
+}
+
+.spiced-search.show-results .suggestions {
+    display: block;
+}
+
+.inactive {
+    pointer-events: none;
+}

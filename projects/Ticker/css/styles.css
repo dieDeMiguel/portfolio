@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: indigo;
+}
+
+.ticker {
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+.ticker-wrapper {
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.ticker a {
+    display: inline-block;
+    border: 1px dotted red;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.ticker a:hover {
+    text-decoration: underline;
+    color: blue;
+}

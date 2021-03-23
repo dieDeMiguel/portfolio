@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Connect Four",
+        "directory": "connect-four",
+        "img": "connect-gif.gif",
+        "body": "Connect-Four emulator developed in both vanilla JS as well as JQuery",
+        "info": "For this project the JQuery Library was extensively used. Methods like “addClass( )”, “.eq( )”, “.add( )”, “.find( )” were used. The challenging part was to develop a method to check diagonal win.",
+        "technologies": ["JavaScript", "JQuery", "HTML5", "CSS3", "Flex-Box"],
+        "repository": ""
+    },
+    {
+        "title": "Weather App",
+        "directory": "Weather",
+        "URL": "https://weatherappargentina.herokuapp.com/",
+        "img": "weather-gif.gif",
+        "body": "Weather Application developed in NodeJS",
+        "info": "Weather Application developed in JavaScript, NodeJS, Handlebars. This Site consumes two API’s in order to obtain Geolocation and Weather forecast for the searched city."
+    },
+    {
+        "title": "Spotify Search",
+        "directory": "Spotify-Search",
+        "img": "spotify-gif.gif",
+        "body": "Search through artists and albums in Spotify",
+        "info": "'Spotify Search' allows the user to query Artists and Albums which are then required through Ajax Requests to a Spotify endpoint. This data is later rendered as a list that has links to the artists or albums on spotify. Auto-scroll is implemented on this site."
+    },
+    {
+        "title": "Incremental Search Using Ajax Requests",
+        "directory": "incremental-search-using-ajax",
+        "img": "incremental-gif.gif",
+        "body": "Search bar implements DOM manipulation and Ajax Requests using JQuery.",
+        "info": "This project uses Ajax Requests in order to retrieve information from an online site. The list of results are rendered in real time using keyboard and mouse events which are handled by Jquery.",
+        "technologies": [
+            "JavaScript",
+            "JQuery",
+            "HTML5",
+            "CSS3",
+            "Flex-Box",
+            "Ajax Requests"
+        ],
+        "repository": ""
+    },
+    {
+        "title": "Kitty Carousel",
+        "directory": "Kitty-Carousel",
+        "img": "kitty-gif.gif",
+        "info": "Image carousel implemented only with Vanilla JavaScript DOM manipulation. An extensive use of CSS properties was also necessary in order to achieve a dynamic component with adjustable refresh rate.",
+        "technologies": ["JavaScript", "HTML5", "CSS3", "Flex-Box", "DOM"],
+        "repository": ""
+    },
+    {
+        "title": "Ticker",
+        "directory": "Ticker",
+        "img": "ticker-gif.gif",
+        "body": "Ticker implemented on upper part of the UI showing random text",
+        "info": "Vanilla JavaScript with methods like: “window.requestAnimationFrame( )”, “window.cancelAnimationFrame( )” and several “eventListeners” are used together with CSS3 selectors in order to animate a list of elements that move on the upper part of the site."
+    },
+    {
+        "title": "Hamburg Tip",
+        "directory": "Tip-Calculator",
+        "img": "tip.gif",
+        "body": "Application to calculate the total bill per person for a variable amount of customers in a restaurant",
+        "info": "Vanilla JavaScript, HTML5 and CSS3 styling were used in this project."
+    }
+]

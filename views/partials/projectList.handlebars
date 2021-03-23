@@ -1,0 +1,16 @@
+
+{{#projectList}}
+    
+        <article class="article-featured" {{#checkIfCurrent ../currentDirectory ../projectList }}id="active{{/checkIfCurrent}}>
+
+        <h2 class="article-title">{{ title }}</h2>
+        {{#if ../showScreenshot}}
+            {{>screenshot}}
+            <p class="article-info">February 2021  |  dieDeMiguel</p>
+            <p class="article-body"><strong>{{ body }}</strong></p>
+             <a href="../projects/{{ directory }}" class="article-read-more">Details</a>
+        {{else}}
+            <a href="/projects/{{ directory }}" class="article-read-more">Details</a>
+         {{/if}}
+    </article>
+{{/projectList}}

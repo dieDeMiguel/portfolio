@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+.carousel {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5%;
+}
+
+.kitty {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transform: translateX(100%);
+}
+
+.kitty.onscreen {
+    transform: translateX(0);
+    transition-duration: 1s;
+}
+
+.kitty.exit {
+    transform: translateX(-100%);
+    transition-duration: 1s;
+}
+
+.kitty:nth-child(1) {
+    background-image: url("https://mwlabs-assets.netlify.app/spiced/kittens/kit1.jpg");
+}
+
+.kitty:nth-child(2) {
+    background-image: url("https://mwlabs-assets.netlify.app/spiced/kittens/kit2.jpg");
+}
+
+.kitty:nth-child(3) {
+    background-image: url("https://mwlabs-assets.netlify.app/spiced/kittens/kit3.jpg");
+}
+
+.kitty:nth-child(4) {
+    background-image: url("https://mwlabs-assets.netlify.app/spiced/kittens/kit4.jpg");
+}
+
+.dots {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dots li {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin: 20px 10px;
+}
+
+.dots li.current {
+    background-color: white;
+}
