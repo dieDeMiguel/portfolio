@@ -47,14 +47,6 @@
         "repository": ""
     },
     {
-        "title": "Chat App",
-        "directory": "ChatApp",
-        "img": "chat.gif",
-        "URL": "https://diedemiguel-chatapp.herokuapp.com/",
-        "body": "Chat app developed using socket.io, NodeJS, ExpressJS and Handlebars",
-        "info": "JavaScript, HTML5 and CSS3 styling were also used in this project."
-    },
-    {
         "title": "Ticker",
         "directory": "Ticker",
         "img": "ticker-gif.gif",
